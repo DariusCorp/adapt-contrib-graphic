@@ -6,8 +6,8 @@
   "bugs": "https://github.com/adaptlearning/adapt-contrib-graphic/issues",
   "component": "graphic",
   "targetAttribute": "_graphic",
-  "displayName": "Graphic",
-  "description": "Graphic component which dynamically displays small and large images of different resolutions based upon device width",
+  "displayName": "Grafic",
+  "description": "Componentă grafică care afișează dinamic imagini mici și mari de diferite rezoluții în funcție de lățimea dispozitivului",
   "main": "/js/adapt-contrib-graphic.js",
   "assetFields": [
     "_graphic.small",

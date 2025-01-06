@@ -18,12 +18,12 @@
               "properties": {
                 "_graphic": {
                   "type": "object",
-                  "title": "Graphic",
+                  "title": "Grafic",
                   "default": {},
                   "properties": {
                     "ariaRegion": {
                       "type": "string",
-                      "title": "ARIA region",
+                      "title": "Zonă ARIA",
                       "default": "Graphic",
                       "_adapt": {
                         "translatable": true

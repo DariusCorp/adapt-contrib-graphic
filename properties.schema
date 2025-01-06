@@ -15,7 +15,7 @@
     "scrollAriaLabel": {
       "type": "string",
       "required": true,
-      "default": "Use the scrollbar to pan the image left and right. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}",
+      "default": "Utilizați bara de derulare pentru a panorama imaginea la stânga și la dreapta. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -35,7 +35,7 @@
       "default": "",
       "inputType": "Text",
       "validators": [],
-      "help": "This is the instruction text",
+      "help": "Acesta este textul instrucțiunilor",
       "translatable": true
     },
     "_graphic": {
@@ -47,20 +47,20 @@
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Alternative Text",
+          "title": "Text alternativ",
           "inputType": "Text",
           "validators": [],
-          "help": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank.",
+          "help": "O descriere a imaginii; necesar atunci când are un sens care trebuie transmis elevului. Pentru imaginile "decorative", lăsați acest lucru necompletat.",
           "translatable": true
         },
         "longdescription": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Long image description",
+          "title": "Descriere lungă a imaginii",
           "inputType": "Text",
           "validators": [],
-          "help": "A long description of the image. This text appear below the image.",
+          "help": "O descriere lungă a imaginii. Acest text apare sub imagine.",
           "translatable": true
         },
         "large": {
@@ -69,7 +69,7 @@
           "default": "",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The large sized image for desktop devices"
+          "help": "Imaginea de dimensiuni mari pentru dispozitive desktop"
         },
         "small": {
           "type": "string",
@@ -77,7 +77,7 @@
           "default": "",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The small sized image for mobile devices"
+          "help": "Imaginea de dimensiuni mici pentru dispozitive mobile"
         },
         "attribution": {
           "type": "string",
@@ -85,7 +85,7 @@
           "default": "",
           "inputType": "Text",
           "validators": [],
-          "help": "Text to be displayed as an attribution",
+          "help": "Text care trebuie afișat ca atribuire",
           "translatable": true
         },
         "_url": {
@@ -95,7 +95,7 @@
           "title": "URL",
           "inputType": "Text",
           "validators": [],
-          "help": "When the graphic is selected this is the url it will follow."
+          "help": "Când graficul este selectat, aceasta este adresa URL pe care o va urma."
         },
         "_target": {
           "type": "string",
@@ -108,7 +108,7 @@
             "options": ["", "_blank", "_self", "_parent", "_top"]
           },
           "validators": [],
-          "help": "This targets where to open the link. Acceptable values are '_blank' (opens the linked document in a new window or tab), '_parent' (opens the linked document in the parent frame), '_top' (opens the linked document in the full body of the window) or '_self' (opens the linked document in the same frame as it was selected. If no value is set, the default is '_blank'."
+          "help": "Acesta vizează unde să deschizi linkul. Valorile acceptabile sunt '_blank' (deschide documentul legat într-o fereastră sau tab nou), '_parent' (deschide documentul legat în cadrul părinte), '_top' (deschide documentul legat în întregul corp al ferestrei) sau '_self' (deschide documentul legat în același cadru în care a fost selectat). Dacă nu este setată nicio valoare, implicit este '_blank'."
         }
       }
     },
@@ -116,7 +116,7 @@
       "type": "boolean",
       "required": true,
       "default": false,
-      "title": "Enable horizontal scrolling",
+      "title": "Activați derularea orizontală",
       "inputType": "Checkbox",
       "validators": []
     },
@@ -124,10 +124,10 @@
       "type": "number",
       "required": false,
       "default": 0,
-      "title": "Scroll percent",
+      "title": "Procentul de derulare",
       "inputType": "Number",
       "validators": ["required", "number"],
-      "help": "0 is left most, 50 is in the middle, 100 is right most."
+      "help": "0 este cel mai la stânga, 50 este la mijloc, 100 este cel mai la dreapta."
     }
   }
 }

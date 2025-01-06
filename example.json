@@ -5,9 +5,9 @@
         "_component": "graphic",
         "_classes": "",
         "_layout": "left",
-        "title": "Here is a graphic object",
-        "displayTitle": "Here is a graphic object",
-        "body": "Hi everybody!",
+        "title": "Iată un obiect grafic",
+        "displayTitle": "Iată un obiect grafic",
+        "body": "Bună tuturor!",
         "instruction": "",
         "_graphic": {
             "alt": "",

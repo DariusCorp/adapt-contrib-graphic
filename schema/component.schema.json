@@ -10,7 +10,7 @@
       "properties": {
         "_supportedLayout": {
           "type": "string",
-          "title": "Supported layout",
+          "title": "Aspect acceptat",
           "default": "both",
           "enum": [
             "full-width",
@@ -23,7 +23,7 @@
         },
         "instruction": {
           "type": "string",
-          "title": "Instruction",
+          "title": "Instrucțiuni",
           "default": "",
           "_adapt": {
             "translatable": true
@@ -31,7 +31,7 @@
         },
         "_graphic": {
           "type": "object",
-          "title": "Graphic",
+          "title": "Grafic",
           "default": {},
           "required": [
             "large",
@@ -40,8 +40,8 @@
           "properties": {
             "alt": {
               "type": "string",
-              "title": "Alternative text",
-              "description": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank",
+              "title": "Text alternativ",
+              "description": "O descriere a imaginii; necesară atunci când are un înțeles care trebuie transmis elevului. Pentru imaginile 'decorative', lăsați acest spațiu liber.",
               "default": "",
               "_adapt": {
                 "translatable": true
@@ -49,8 +49,8 @@
             },
             "longdescription": {
               "type": "string",
-              "title": "Long image description",
-              "help": "A long description of the image. This text appear below the image.",
+              "title": "Descriere lungă a imaginii",
+              "help": "O descriere lungă a imaginii. Acest text apare sub imagine.",
               "default": "",
               "_adapt": {
                 "translatable": true
@@ -58,8 +58,8 @@
             },
             "large": {
               "type": "string",
-              "title": "Large",
-              "description": "The large sized image for desktop devices",
+              "title": "Mare",
+              "description": "Imaginea de dimensiuni mari pentru dispozitive desktop",
               "_backboneForms": {
                 "type": "Asset",
                 "media": "image"
@@ -67,8 +67,8 @@
             },
             "small": {
               "type": "string",
-              "title": "Small",
-              "description": "The small sized image for mobile devices",
+              "title": "Mic",
+              "description": "Imaginea de dimensiuni mici pentru dispozitive mobile",
               "_backboneForms": {
                 "type": "Asset",
                 "media": "image"
@@ -76,8 +76,8 @@
             },
             "attribution": {
               "type": "string",
-              "title": "Attribution",
-              "description": "Text to be displayed as an attribution",
+              "title": "Atribuire",
+              "description": "Text care trebuie afișat ca atribuire",
               "default": "",
               "_adapt": {
                 "translatable": true
@@ -86,13 +86,13 @@
             "_url": {
               "type": "string",
               "title": "URL",
-              "description": "When the graphic is selected this is the url it will follow.",
+              "description": "Când graficul este selectat, aceasta este adresa URL.",
               "default": ""
             },
             "_target": {
               "type": "string",
-              "title": "Target attribute",
-              "description": "This targets where to open the link. Acceptable values are '_blank' (opens the linked document in a new window or tab), '_parent' (opens the linked document in the parent frame), '_top' (opens the linked document in the full body of the window) or '_self' (opens the linked document in the same frame as it was selected. If no value is set, the default is '_blank'.",
+              "title": "Atribut țintă",
+              "description": "Acesta vizează unde să deschizi linkul. Valorile acceptabile sunt '_blank' (deschide documentul legat într-o fereastră sau tab nou), '_parent' (deschide documentul legat în cadrul părinte), '_top' (deschide documentul legat în întregul corp al ferestrei) sau '_self' (deschide documentul legat în același cadru în care a fost selectat. Dacă nu este setată nicio valoare, implicit este '_blank'.",
               "enum": [
                 "",
                 "_blank",
@@ -106,14 +106,14 @@
         },
         "_isScrollable": {
           "type": "boolean",
-          "title": "Enable horizontal scrolling",
-          "description": "Allow the user to view the 'model answer' if they answer the question incorrectly",
+          "title": "Activați derularea orizontală",
+          "description": "Permite utilizatorului să vadă 'modelul de răspuns' dacă răspunde greșit.",
           "default": false
         },
         "_defaultScrollPercent": {
           "type": "number",
-          "title": "Scroll percent",
-          "description": "0 is left most, 50 is in the middle, 100 is right most.",
+          "title": "Procentul de derulare",
+          "description": "0 este cel mai la stânga, 50 este la mijloc, 100 este cel mai la dreapta.",
           "default": 0
         }
       }
