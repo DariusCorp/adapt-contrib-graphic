@@ -50,7 +50,7 @@
           "title": "Text alternativ",
           "inputType": "Text",
           "validators": [],
-          "help": "O descriere a imaginii; necesar atunci când are un sens care trebuie transmis elevului. Pentru imaginile "decorative", lăsați acest lucru necompletat.",
+          "help": "O descriere a imaginii; necesar atunci când are un sens care trebuie transmis elevului. Pentru imaginile 'decorative', lăsați acest lucru necompletat.",
           "translatable": true
         },
         "longdescription": {
