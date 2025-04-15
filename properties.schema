@@ -33,6 +33,7 @@
       "type": "string",
       "required": false,
       "default": "",
+      "title": "Instrucțiuni",
       "inputType": "Text",
       "validators": [],
       "help": "Acesta este textul instrucțiunilor",
@@ -41,7 +42,7 @@
     "_graphic": {
       "type": "object",
       "required": true,
-      "title": "Graphic",
+      "title": "Grafic",
       "properties": {
         "alt": {
           "type": "string",
@@ -67,6 +68,7 @@
           "type": "string",
           "required": true,
           "default": "",
+          "title": "Mare",
           "inputType": "Asset:image",
           "validators": ["required"],
           "help": "Imaginea de dimensiuni mari pentru dispozitive desktop"
@@ -75,6 +77,7 @@
           "type": "string",
           "required": true,
           "default": "",
+          "title": "Mică",
           "inputType": "Asset:image",
           "validators": ["required"],
           "help": "Imaginea de dimensiuni mici pentru dispozitive mobile"
@@ -83,6 +86,7 @@
           "type": "string",
           "required": false,
           "default": "",
+          "title": "Atribuire",
           "inputType": "Text",
           "validators": [],
           "help": "Text care trebuie afișat ca atribuire",
@@ -102,7 +106,7 @@
           "required": false,
           "enum": ["", "_blank", "_self", "_parent", "_top"],
           "default": "_blank",
-          "title": "Target attribute",
+          "title": "Atribut țintă",
           "inputType": {
             "type": "Select",
             "options": ["", "_blank", "_self", "_parent", "_top"]
